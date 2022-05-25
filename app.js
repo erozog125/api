@@ -19,6 +19,7 @@ const tarjeta = document.createElement('div');
 const imagen = document.createElement('img');
 const video = document.createElement('video');
 
+    //¿Qué hace esta línea?
 if (/.(jpg)$/i.test(data.url)) {
     imagen.setAttribute('src',data.url);
     imagen.setAttribute('alt',data.fileSizeBytes);
@@ -40,6 +41,7 @@ else if (/.(png)$/i.test(data.url)) {
     contenedor.appendChild(tarjeta);
 }
 
+    //¿Esta instrucción a qué función pertenece?
 tarjeta.setAttribute('class',"tarjetas");
 
 }
